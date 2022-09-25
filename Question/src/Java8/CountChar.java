@@ -1,9 +1,7 @@
 package Java8;
 
-import Collection.Employee;
-
 public class CountChar {
-	static Employee e = new Employee();
+	static Employee e = new Employee(null, null, null);
 
 	public void a() {
 		e.setName("Shubham");
